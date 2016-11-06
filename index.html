@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Power Pose and Confident Speaker</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/script.js"></script>
+
+
+</head>
+<body>
+
+	<div class="container">
+  <!-- JUMBOTRON -->
+		<div class="jumbotron">
+			<h1>Power Pose</h1>
+			<p>Body language affects how others see us, but it may also change<br> how we see ourselves <br> -- Amy Cuddy</p>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<p class="intro">This webpage is about the concept of <a href="http://jamesclear.com/body-language-how-to-be-confident">Power Position</a> and how it can make you feel more confident in your presentation and public speech. Please follow the following three steps to get better understanding of Power Pose.</p>
+			</div>
+		</div>
+
+		<!-- QUESTION I coppied part of Lizelle Serrano's code in this part because I think it is amazing and fit what I want.And I also learnt how to jump to the content I want by using ID!(Hope I won't get F because I used others code...)-->
+		<section id="navMenu">
+				<div class="container" id="choice">
+						<!-- JUMP TO VIDEO -->
+						<div class="col-md-4">
+								<a style="display:block" href="#video">
+										<div class="option">
+												<i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i>
+												<h2>Amy Cuddy's TED talk</h2>
+										</div>
+								</a>
+						</div>
+
+						<!-- JUMP TO QUIZ-->
+						<div class="col-md-4">
+								<a style="display:block" href="#quiz">
+										<div class="option">
+												<i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>
+												<h2>Let's Have Fun</h2>
+
+										</div>
+								</a>
+						</div>
+
+						<!-- JUMP TO COMMENTS -->
+						<div class="col-md-4">
+								<a style="display:block" href="#comments">
+										<div class="option">
+												<i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+												<h2>Just Try It!</h2>
+
+										</div>
+								</a>
+						</div>
+				</div>
+		</section>
+
+   <!-- VIDEO -->
+	<section id="video">
+		<div class="row">
+			<div class="col-md-8">
+				<h2>Your Body Language Shapes Who You Are</h2>
+      		<iframe width="672" height="378" src="https://www.youtube.com/embed/Ks-_Mh1QhMc" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+
+
+			<div class="col-md-4">
+				<h2>ABOUT</h2>
+					<div class="talk-speaker media">
+              <div class="amypic">
+								<img src="images/amy-cuddy.jpg"/>
+							</div>
+							<br>
+
+							<div>
+									<a href="https://www.ted.com/speakers/amy_cuddy">Amy Cuddy</a>
+				 			</div>
+
+							<div class="talk-speaker__description">
+								Social Psychologist
+							</div>
+
+							<div class="talk-speaker__bio">
+									Amy Cuddy’s research on body language reveals that we can change other people’s perceptions — and even our own body chemistry — simply by changing body positions.
+									<a href="https://www.ted.com/speakers/amy_cuddy"><br>Full bio</a><br>Watch the video closely. Much information huh? Are you ready for a little game?
+							</div>
+				 </div>
+			</div>
+	 </div>
+ </section>
+
+<div class="div1">
+	<p class="intro">
+		After watching the video. Let's see if you have known what type of poses are powerful and what poses are with less power.
+  </p>
+</div>
+
+
+<!--QUIZ-->
+<section id="quiz">
+	<div class="row">
+		<!--Underwood-->
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img alt="100%x200" style="height: 200px; width: 100%; display: block;" src="images/powerpose1underwood.png">
+					<div class="caption">
+						<h3>Mr. Underwood-House of Cards</h3>
+							<p>Power Pose or not?</p>
+				<!--YES BUTTON-->
+					<button type="button" class="btn btn-warning"
+					data-toggle="modal" data-target="#ps">YES</button>
+
+					<div class="modal" id="ps" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<!--don't know why this x doesn't work...-->
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+									</button>
+										 <h3 class="modal-title" id="modalLabel">You are right!</h3>
+								</div>
+					   <div class="modal-body">
+							 <p class="underwood">Recent research coming out of Harvard University, The University of Oregon, The University of Texas and many other places is revealing that powerful and effective leaders not only share similar mindsets, but also similar hormone levels. More specifically, powerful leaders tend to have higher levels of testosterone and lower levels of cortisol.<br>
+Higher levels of testosterone (in both men and women) lead to increased feelings of confidence. Meanwhile, lower levels of cortisol lead to decreased anxiety and an improved ability to deal with stress.<br>
+Here’s what that means: if you enjoy these hormone levels, then you are biologically primed to be more assertive, confident, and relaxed. At the same time, you will be less reactive to stress and more likely to handle pressure situations well. In other words, the correct hormone levels can make you feel more confident and less stressed.
+Sounds good, right?</p>
+						 </div>
+					 </div><!--modal-content-->
+				 </div><!--modal-dialog-->
+			 </div><!--modal-->
+
+       <!--NO BUTTON-->
+				 <button type="button" class="btn btn-warning"
+				 data-toggle="modal" data-target="#no">NO</button>
+
+				 <div class="modal" id="no" tabindex="-1" role="dialog" aria-labelledby="modalLabe">
+					 <div class="modal-dialog" role="document">
+						 <div class="modal-content">
+							 <div class="modal-header">
+								 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								 <span aria-hidden="true">&times;</span>
+								 </button>
+										<h3 class="modal-title" id="modalLabe">You are wrong!</h3>
+							 </div>
+						<div class="modal-body">
+							<p>Mr. Underwook lacks power? Please try it again!</p>
+						</div>
+					</div><!--modal-content-->
+				</div><!--modal-dialog-->
+			</div><!--modal-->
+
+				</div>
+		 </div>
+	 </div>
+<!--Job-->
+<div class="col-sm-6 col-md-4">
+	<div class="thumbnail">
+		<img alt="100%x200" style="height: 200px; width: 100%; display: block;" src="images/lowpowerpose1.jpg">
+			<div class="caption">
+				<h3>People who are waiting to take job interview</h3>
+					<p>Power Pose or not?</p>
+					<!--YES BUTTON-->
+						<button type="button" class="btn btn-warning"
+						data-toggle="modal" data-target="#lpp">YES</button>
+
+						<div class="modal" id="lpp" tabindex="-1" role="dialog" aria-labelledby="modalLab">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<!--don't know why this x doesn't work...-->
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+											 <h3 class="modal-title" id="modalLab">You are wrong!</h3>
+									</div>
+							 <div class="modal-body">
+								 <p class="underwood">Low power poses are closed and guarded. Are these interviewees closed and guarded or relaxed?</p>
+							 </div>
+						 </div><!--modal-content-->
+					 </div><!--modal-dialog-->
+				 </div><!--modal-->
+
+
+<!--NO BUTTON-->
+	<button type="button" class="btn btn-warning"
+	data-toggle="modal" data-target="#33">NO</button>
+
+	<div class="modal" id="33" tabindex="-1" role="dialog" aria-labelledby="modalLa">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+						 <h3 class="modal-title" id="modalLa">You are right!</h3>
+				</div>
+		 <div class="modal-body">
+			 <p>In general, the high power poses are open and relaxed while the low power poses are closed and guarded.<br>If you’re feeling stressed a few minutes before your next presentation, interview, or meeting — take a moment to adjust your posture and stand in a powerful position. Put your hands on your hips, keep your chin up, and your chest out. Doing this for just two minutes will raise your testosterone and increase your confidence, while also decreasing your cortisol and improving your ability to handle stress.</p>
+		 </div>
+	 </div><!--modal-content-->
+ </div><!--modal-dialog-->
+</div><!--modal-->
+</div>
+</div>
+</div>
+
+<!--MJ-->
+<div class="col-sm-6 col-md-4">
+	<div class="thumbnail">
+		<img alt="100%x200" style="height: 200px; width: 100%; display: block;" src="images/powerpose2jordan.jpg">
+		 <div class="caption"> <h3>Michael Jordan layup at the buzzer</h3>
+		<p>Power Pose or not?</p>
+		<!--YES BUTTON-->
+			<button type="button" class="btn btn-warning"
+			data-toggle="modal" data-target="#mj1">YES</button>
+
+			<div class="modal" id="mj1" tabindex="-1" role="dialog" aria-labelledby="modalL">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<!--don't know why this x doesn't work...-->
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+								 <h3 class="modal-title" id="modalL">You are right!</h3>
+						</div>
+				 <div class="modal-body">
+					 <p class="underwood">The acquisition of power causes individuals to feel more positive, in control, and
+optimistic about the future, and to become more goal-oriented and likely to take action.</p>
+				 </div>
+			 </div><!--modal-content-->
+		 </div><!--modal-dialog-->
+	 </div><!--modal-->
+
+	 <!--NO BUTTON-->
+		 <button type="button" class="btn btn-warning"
+		 data-toggle="modal" data-target="#mj2">NO</button>
+
+		 <div class="modal" id="mj2" tabindex="-1" role="dialog" aria-labelledby="modal">
+			 <div class="modal-dialog" role="document">
+				 <div class="modal-content">
+					 <div class="modal-header">
+						 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						 <span aria-hidden="true">&times;</span>
+						 </button>
+								<h3 class="modal-title" id="modal">You are wrong!</h3>
+					 </div>
+				<div class="modal-body">
+					<p>Maybe you should try it again!</p>
+				</div>
+			</div><!--modal-content-->
+		</div><!--modal-dialog-->
+	</div><!--modal-->
+	  </div>
+	</div>
+</div>
+
+</div>
+
+
+</section> <!--END OF QUIZ SECTION-->
+
+
+<!--Dragging-->
+<div class="row">
+			<div class="col-md-6">
+			<h3>Here are some more examples.</h3>
+				<div class="imgs">
+					<div class="inline_image fullWidth" style="position: relative;">
+						<div id="draggable" class="ui-widget-content">
+							<img src="images/lowpowerpose2.jpg"  width="260" height="383" style="display: incline;">
+						</div>
+
+						<div id="draggable2" class="ui-widget-content">
+						  <img src="images/powerpose3soprano.jpg"  width="260" height="383" style="display: incline;">
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="col-md-6">
+				<h3>Pleas drop Power Pose pic in the BOX.
+					<i class="fa fa-dropbox" aria-hidden="true"></i>
+				</h3>
+				<div id="droppable" class="ui-widget-header">
+					<p>Drop here</p>
+				</div>
+			</div>
+	</div> <!--end of the dragging row-->
+
+<section id="comments">
+ <div class="row">
+	 <div class="col-md-6">
+		 <h3>
+  	 	Any Comments or thoughts?
+  	 </h3>
+  	 <p class="prob">The theory of Power Poses by Amy Cuddy is quite new, and there are still discussion about it. Recently the co-founder of this theory also casted doubt on this idea. What is your thoughts about it?</p>
+  		<iframe src="http://files.quizsnack.com/iframe/embed.html?hash=qhcsb8ik&width=350&height=450&wmode=transparent&t=1478468120&width=350&height=450" width="350" height="280" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+		<form> <input class="form-control" id="focusedInput" value="Please leave your comment here=^)"><br>
+				<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+	 </div>
+
+	 <div class="col-md-6">
+			<h3>Try power pose by yourself.</h3>
+				<div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+				 </ol>
+			<div class="carousel-inner" role="listbox">
+					<div class="item">
+						<img src="images/power pose 1.gif"/>
+					</div>
+			<div class="item active">
+				<img src="images/power pose 3.gif"/>
+			</div>
+			<div class="item">
+				<img src="images/power pose4.gif"/>
+			</div>
+		</div>
+		<a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span> </a>
+		<a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+	  </a>
+	</div> <!--end of corousel-->
+	</div>
+</div> <!--end of comment row-->
+</section><!--end of comment section-->
+</div><!--end of whole container-->
+<footer>
+		<div class="container pull-left">
+				<ul class="list-inline list-unstyled">
+						<li>
+								<a href="https://www.linkedin.com/in/di-yang-22431112b?" target="_blank">
+										<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+								</a>
+						</li>
+						<li>
+								<a href="https://www.facebook.com/profile.php?id=100006376265586" target="_blank">
+										<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+								</a>
+						</li>
+						<li>
+								<a href="https://www.instagram.com/yddjoy/" target="_blank">
+										<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+								</a>
+						</li>
+				</ul>
+		</div>
+		<!-- BACK TO TOP -->
+		<div class="container">
+				<p class="pull-right">
+						<a href="#" class="h4">Back to top</a>
+				</p>
+		</div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

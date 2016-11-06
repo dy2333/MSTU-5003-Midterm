@@ -1,0 +1,76 @@
+html body {
+    color: #444444;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url(../images/powerposes.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #DFDFDF;
+    background-size: 100%;
+    color:white;
+}
+.intro{
+  font-size:25px;
+  padding: 20px;
+ }
+ #choice {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#navMenu {
+  padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    color: #3D72A4;
+}
+.talk-speaker__description {
+    color: #666;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+#draggable, #draggable2 { width: 265px; height: 390px; padding: 0.5em; float:left; }
+#droppable { width: 550px; height: 383px; padding: 0.5em; float:right; margin: 10px; }
+
+.carousel {
+  position: relative;
+  width:500px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;}
+
+.prob{
+  padding:30px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #3D72A4;
+}
+/*href link colors*/
+
+a:link, a:visited {
+    color: #D3649F;
+}
+
+a:hover {
+    color: #666666;
+}
+
+a:active {
+    color: #ECF0F0;
+}
